@@ -1,0 +1,12 @@
+Jesli masz blad budowania:
+
+1. SDK location not found -> uruchom AUTO_BUDUJ_APK.bat on sam stworzy local.properties
+2. Could not resolve com.android.tools.build:gradle -> sprawdz internet, wylacz VPN
+3. Unsupported Java version -> potrzebujesz Java 17, nie 8 ani 21. Pobierz z adoptium.net wersje 17
+4. Build Tools 34.0.0 not found -> skrypt sam instaluje, ale musisz miec internet
+5. License not accepted -> skrypt robi y | sdkmanager --licenses
+
+Wyslij mi dokladny blad - zrob zrzut ekranu okna.
+
+Alternatywa bez budowania lokalnie:
+Wgraj projekt na GitHub -> Actions -> Build APK -> tam buduje sie na serwerze Google bez Twojego SDK.
